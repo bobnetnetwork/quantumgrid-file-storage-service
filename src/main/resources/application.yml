@@ -81,3 +81,7 @@ springdoc:
     show-actuator: false
     use-management-port: true
     pathsToMatch: /api/**, /authenticate, /register
+
+storage:
+    local:
+        directory: ${user.home}/filestorage
